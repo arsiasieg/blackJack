@@ -26,6 +26,12 @@ public class Player {
 			System.out.println(card.toString());
 		}
 	}
+	
+	public void showFirstCard() {
+		System.out.printf("Main de %s (%d points) : %n", this.getName(), this.getHand().get(0).getPoints());
+		System.out.println(this.getHand().get(0).toString());
+	}
+	
 
 	public String getName() {
 		return name;

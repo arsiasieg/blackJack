@@ -39,7 +39,7 @@ public class Game {
 			//Afficher les cartes du joueur + valeurs
 			player.showHandAndScore();
 			//Afficher les cartes du croupier + valeurs
-			dealer.showHandAndScore();
+			dealer.showFirstCard();
 			
 			
 			//(Optionnel) Si BlacJack direct, calcul des scores et arrêt du jeu 
@@ -75,12 +75,6 @@ public class Game {
 			}
 		//Proposer de rejouer
 		}while(this.wantToPlayAgain());
-		
-		
-		
-		
-		
-		
 	}
 
 
